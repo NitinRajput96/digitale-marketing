@@ -21,7 +21,7 @@ function App() {
     setTimeout(() => {
       setLoginToggle(!loginToggle);
     }, 2000);
-  }, []);
+  },[setLoginToggle]);
 
   const toggleLoginHandler = () => {
     setLoginToggle(!loginToggle);

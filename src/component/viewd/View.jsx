@@ -19,7 +19,7 @@ export const View = () => {
     getDtata();
     window.scroll(0, 0);
     // console.log(ObjectD.detailsData[0]);
-  }, []);
+  }, [getDtata]);
 
   return (
     <>
