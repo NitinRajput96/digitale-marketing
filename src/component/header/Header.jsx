@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <>
         
-      <div className="navbar">
+      <div className="navbar fixed z-50">
         <div className="logo">N-shopping</div>
         <div className="nav">
                             <Link to="/" className="tags">Home</Link>

@@ -9,7 +9,6 @@ import { Login } from "./component/login/Login";
 import { PageNotFound } from "./component/pagenotFound/PageNotFound";
 import { About } from "./component/about/About";
 import { View } from "./component/viewd/View";
-import { DetailsOb } from "./component/object/ObjectD";
 import { ProductLog } from "./component/logProduct/ProductLog.jsx";
 import { useEffect, useState } from "react";
 import { Login2 } from "./component/login/Login2.jsx";

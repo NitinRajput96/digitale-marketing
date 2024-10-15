@@ -40,11 +40,11 @@ export const Login2 = () => {
 
   return (
     <>
-      <div className=" w-full   flex justify-center items-center  absolute  max-[600px]:top-[10%] sm:top-[15%] lg:top-[16%] z-50 text-center " data-aos="fade-up">
+      <div className=" w-full   flex justify-center items-center  fixed  max-[600px]:top-[10%] sm:top-[15%] lg:top-[16%] z-50 text-center " data-aos="fade-up">
         <Toaster />
         <form  
           ref={form}
-          className="frominputt bg-black/40 backdrop-blur-md px-8 py-16 text-center  max-[600px]:w-11/12 sm:w-[70%] lg:w-[50%]"
+          className="frominputt  bg-black/40 backdrop-blur-md px-8 py-16 text-center  max-[600px]:w-11/12 sm:w-[70%] lg:w-[50%]"
           onSubmit={sendEmail}
         >
           <div

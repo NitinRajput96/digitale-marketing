@@ -3,7 +3,7 @@ import './Home.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import ObjectD from  "../object/ObjectD.json"
-import { Link, useNavigate} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import useLoginPopup from '../../context/logincotext/loginPopup';
 
 
