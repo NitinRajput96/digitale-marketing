@@ -1,0 +1,36 @@
+
+
+.view-container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    background-color: black;
+}
+
+.view-heading
+{
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+
+}
+
+.view-img
+{
+    width: 90%;
+    height: 400px;
+    background-color: gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+}

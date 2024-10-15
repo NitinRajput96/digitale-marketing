@@ -1,0 +1,267 @@
+*
+{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-home
+{
+ 
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image: url("../gallery/img1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.heading-first
+{
+    width: 45%;
+    height: 58%;
+    box-shadow: .3px .3px 1px 2px solid grey;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-content: center;
+    padding: 1%;
+    background-color: rgba(95, 93, 93, 0.171);
+    border-radius: 5px;
+}
+.heading
+{
+    font-size:40px;
+    font-family: serif;
+    color: white;
+}
+.heading-para
+{
+    font-size: bolder;
+    color: white;
+}
+.btn-btn-main
+{
+    width:20%;
+    height: 40px;
+    border-radius:20px;
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid;
+    outline: none;
+    background-color:transparent;
+}
+
+.btn-btn-main:hover{
+    background-color: white;
+    color: black;
+}
+/* img heading */
+.imgData
+{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    
+}
+
+@media (max-width:600px) {
+    
+    .container-home
+    {
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px;
+     
+    }
+    .heading-first
+    {
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+    }
+    .btn-btn-main
+    {
+        width: 27%;
+        height: 12%;
+        font-size: 12px;
+    }
+    .heading
+    {
+        font-size: 25px;
+    }
+    .heading-para
+    {
+        font-size: 12px;
+    }
+}
+
+/* container-work */
+.container-work
+{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+.heading-our
+{
+    color:white;
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 50px;
+    background-color:black;
+   padding-top: 15px;
+}
+
+.work-list
+{
+    width: 48%;
+    height: 320px;
+    background-color: rgba(95, 93, 93, 0.171);
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    box-shadow: .3px .3px 1px 2px solid grey;
+}
+
+.img-div
+{
+  width: 45%;
+  /* background-image: url("../gallery/logo-wd-o.png"); */
+  height: 95%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgcolor
+{
+    color:black;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 50%;
+    width: 50%;
+    height: 40%;
+}
+.list-heading
+{
+    color: white;
+    font-style: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+.details
+{
+    width: 55%;
+    height: 95%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.titles
+{
+    width: 90%;
+   font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-style: bolder;
+    margin-top: 5px;
+    box-shadow: .3px .3px 1px 5px solid grey;
+    text-align: left;
+}
+
+.button-wk
+{
+    width: auto;
+    height: auto;
+    padding: 7px;
+    font-size: 13px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.button-wk:hover
+{
+    background: white;
+    color: black;
+    
+}
+
+@media (max-width:600px) {
+    
+    .container-work
+    {
+        padding:1%;
+        margin-top: 10px;
+    }
+    .heading-our
+    {
+        font-size: 30px;
+        background-color:black;
+    }
+    .work-list
+    {
+        width: 100%;
+        height: 280px;
+        margin: 10px;
+    }
+   
+    .titles
+    {
+        font-size: 12px;
+    }
+    .imgcolor
+    {
+        width: 40%;
+        height: 20%;
+    }
+    .list-heading
+    {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .button-wk
+    {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:601px) {
+    .heading-our
+    {
+        font-size: 40px;
+    }
+    .work-list
+    {
+        width: 47%;
+        margin: 10px;
+    }
+    .titles
+    {
+        font-size: 15px;
+
+    }
+  
+}
